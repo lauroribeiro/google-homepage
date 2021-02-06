@@ -10,7 +10,6 @@ figure {
     display: flex;
     justify-content: center;
     margin-top: 21vh;
-    /* transform: scale(1.2); */
     margin-bottom: 30px;
     }
 .form {
@@ -52,7 +51,8 @@ figure {
 }
 #search-button, #lucky-search-button {
     color: rgb(61, 60, 60);
-    transform: scale(0.92);
+    flex-wrap: wrap;
+    font-size: 14px;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 5px;
